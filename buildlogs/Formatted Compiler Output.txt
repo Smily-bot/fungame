@@ -1,0 +1,23 @@
+3/11/2024 11:06:53 PM: Creating log...
+
+6	1	D:\ad\fungame\main.c	[Error] unknown type name 'string'
+		D:\ad\fungame\main.c	In function 'main':
+12	20	D:\ad\fungame\main.c	[Warning] integer overflow in expression [-Woverflow]
+30		D:\ad\fungame\Makefile.win	recipe for target 'main.o' failed
+
+3/11/2024 11:07:11 PM: Appending to log...
+
+		D:\ad\fungame\main.c	In function 'main':
+11	20	D:\ad\fungame\main.c	[Warning] integer overflow in expression [-Woverflow]
+
+3/11/2024 11:16:34 PM: Appending to log...
+
+		D:\ad\fungame\main.c	In function 'main':
+11	2	D:\ad\fungame\main.c	[Error] expected ';' before 'scanf'
+13	20	D:\ad\fungame\main.c	[Warning] integer overflow in expression [-Woverflow]
+30		D:\ad\fungame\Makefile.win	recipe for target 'main.o' failed
+
+3/11/2024 11:16:42 PM: Appending to log...
+
+		D:\ad\fungame\main.c	In function 'main':
+13	20	D:\ad\fungame\main.c	[Warning] integer overflow in expression [-Woverflow]

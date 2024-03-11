@@ -1,0 +1,61 @@
+3/11/2024 11:06:53 PM: Creating log...
+
+Compiler: MinGW GCC 4.7.2 32-bit
+Building Makefile "D:\ad\fungame\Makefile.win"
+Executing  make...
+mingw32-make.exe -f "D:\ad\fungame\Makefile.win" all
+gcc.exe -c main.c -o main.o -I"D:/ijji/devcpp/Dev-Cpp/MinGW32/include" -g3
+main.c:6:1: error: unknown type name 'string'
+main.c: In function 'main':
+main.c:12:20: warning: integer overflow in expression [-Woverflow]
+D:\ad\fungame\Makefile.win:30: recipe for target 'main.o' failed
+mingw32-make.exe: *** [main.o] Error 1
+Execution terminated
+
+3/11/2024 11:07:11 PM: Appending to log...
+
+Compiler: MinGW GCC 4.7.2 32-bit
+Building Makefile "D:\ad\fungame\Makefile.win"
+Executing  make...
+mingw32-make.exe -f "D:\ad\fungame\Makefile.win" all
+gcc.exe -c main.c -o main.o -I"D:/ijji/devcpp/Dev-Cpp/MinGW32/include" -g3
+main.c: In function 'main':
+main.c:11:20: warning: integer overflow in expression [-Woverflow]
+windres.exe -i fungame_private.rc --input-format=rc -o fungame_private.res -O coff 
+gcc.exe main.o stuff.o fungame_private.res -o build/fungame.exe -L"D:/ijji/devcpp/Dev-Cpp/MinGW32/lib" -static-libstdc++ -static-libgcc -g3
+Execution terminated
+
+3/11/2024 11:16:34 PM: Appending to log...
+
+Compiler: MinGW GCC 4.7.2 32-bit
+Building Makefile "D:\ad\fungame\Makefile.win"
+Executing  make...
+mingw32-make.exe -f "D:\ad\fungame\Makefile.win" all
+gcc.exe -c main.c -o main.o -I"D:/ijji/devcpp/Dev-Cpp/MinGW32/include" -g3
+main.c: In function 'main':
+main.c:11:2: error: expected ';' before 'scanf'
+main.c:13:20: warning: integer overflow in expression [-Woverflow]
+D:\ad\fungame\Makefile.win:30: recipe for target 'main.o' failed
+mingw32-make.exe: *** [main.o] Error 1
+Execution terminated
+
+3/11/2024 11:16:42 PM: Appending to log...
+
+Compiler: MinGW GCC 4.7.2 32-bit
+Building Makefile "D:\ad\fungame\Makefile.win"
+Executing  make...
+mingw32-make.exe -f "D:\ad\fungame\Makefile.win" all
+gcc.exe -c main.c -o main.o -I"D:/ijji/devcpp/Dev-Cpp/MinGW32/include" -g3
+main.c: In function 'main':
+main.c:13:20: warning: integer overflow in expression [-Woverflow]
+gcc.exe main.o stuff.o fungame_private.res -o build/fungame.exe -L"D:/ijji/devcpp/Dev-Cpp/MinGW32/lib" -static-libstdc++ -static-libgcc -g3
+Execution terminated
+
+3/11/2024 11:46:33 PM: Appending to log...
+
+Compiler: MinGW GCC 4.7.2 32-bit
+Building Makefile "D:\ad\fungame\Makefile.win"
+Executing  make...
+mingw32-make.exe -f "D:\ad\fungame\Makefile.win" all
+gcc.exe main.o stuff.o fungame_private.res -o build/fungame.exe -L"D:/ijji/devcpp/Dev-Cpp/MinGW32/lib" -static-libstdc++ -static-libgcc -g3
+Execution terminated
